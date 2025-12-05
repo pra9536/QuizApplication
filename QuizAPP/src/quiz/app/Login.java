@@ -1,28 +1,4 @@
 
-/* package quiz.app;
-import javax.swing.*;
-import java.awt.*;
-import java.lang.*;
-
-public class Login extends JFrame  {
-    Login() {
-        getContentPane().setBackground(Color.WHITE);
-        setLayout(null);
-        setSize(1000, 500);// set size of frame
-        setLocation(200, 150);// distance of frame from x-axis and y-axis
-        setVisible(true);// bydefault Visibility is false
-        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/login.png")); // image ko frame ke ander lekar aana
-        Image i = i1.getImage().getScaledInstance(550, 500, Image.SCALE_DEFAULT); // image ko kuch scale value dena i.e provide width and height
-        ImageIcon i2 = new ImageIcon(i);
-        JLabel image = new JLabel(i2);
-        setBounds(450, 0, 550, 500);// x and y se kaha rahega
-        add(image);
-    }
-
-    public static void main(String[] args) throws Exception {
-        new Login();
-    }
-}*/
 package quiz.app;
 
 import javax.swing.*;
